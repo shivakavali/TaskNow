@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do-Tasks</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="head">TaskNow</h1>
+    <br>
+    <div class="box" id="b1" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <h2 class="name">To-do</h2>
+        <div class="task-container" id="todoTaskContainer"></div>
+        <input type="text" id="todoTaskInput" placeholder="Add task..." onkeypress="handleKeyPress(event, 'b1')">
+        <button onclick="addTask('b1')">Add</button>
+    </div>       
+    <div class="box" id="b2" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <h2 class="name">In-Progress</h2>
+        <div class="task-container" id="inProgressTaskContainer"></div>
+        <input type="text" id="inProgressTaskInput" placeholder="Add task..." onkeypress="handleKeyPress(event, 'b2')">
+        <button onclick="addTask('b2')">Add</button>
+    </div>
+    <div class="box" id="b3" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <h2 class="name">Done</h2>
+        <div class="task-container" id="doneTaskContainer"></div>
+        <input type="text" id="doneTaskInput" placeholder="Add task..." onkeypress="handleKeyPress(event, 'b3')">
+        <button onclick="addTask('b3')">Add</button>
+    </div>
+
+    <script src="ToDo.js"></script>
+</body>
+</html>

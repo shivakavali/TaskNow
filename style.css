@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#head{
+    border: 5px;
+    height: 60px;
+    padding-top: 5px;
+    background-color: rgb(173, 230, 251);
+    text-align: center;
+    font-size: x-large;
+    color: hwb(202 15% 77% / 0.886);
+}
+#home{
+    border: 2px solid black;
+    margin-right: 100px;
+    padding-right: 100px;
+    background-color: rgb(103, 146, 221);
+    border-radius: 5px;
+}
+#setting{
+    border: 2px solid black;
+    margin-right: 100px;
+    padding-right:30px;
+    background-color: rgb(103, 146, 221);
+    border-radius: 5px;
+}
+#status{
+    border: 2px solid black;
+    margin-right: 100px;
+    padding-right:30px;
+    background-color: rgb(103, 146, 221);
+    border-radius: 5px;
+}
+.box{
+    margin-left: 15px;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 13px;
+    border: 2px solid black;
+    color: black;
+    border: 2px solid black;
+    border-width: 30%;
+    display: inline-block;
+    width: 30vw;
+    height: 30vh;
+    margin-right: 5px;
+    overflow-y: auto; */
+    vertical-align: top;
+}
+#b1 h2{
+    background-color: rgb(230, 121, 143);
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-bottom: 5px;
+
+}
+#b2 h2{
+    background-color: rgb(216, 236, 156);
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+#b3 h2{
+    background-color: rgb(124, 207, 149);
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+input{
+    color: rgb(99, 70, 70);
+}
+
+button{
+    color: black;
+}
